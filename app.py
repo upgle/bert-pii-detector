@@ -15,7 +15,7 @@ CORS(app, origins="*")
 device = torch.device('cpu')
 
 # 모델과 토크나이저 로드
-model_path = 'model'
+model_path = 'upgle/bert-pii-korean'
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model.eval()
