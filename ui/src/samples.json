@@ -1,0 +1,28 @@
+{
+  "piIncluded": [
+    "{\"user_id\": \"12345\", \"email\": \"user@example.com\", \"address\": {\"street\": \"서울시 강남구\", \"zipcode\": \"12345\"}}",
+    "{\"employee\": {\"name\": \"김지민\", \"age\": 30, \"department\": \"인사팀\", \"phone\": \"010-5678-1234\"}}",
+    "{\"customer\": {\"name\": \"이승기\", \"contact\": {\"email\": \"seunggi@example.com\", \"phone\": \"010-9876-5432\"}}}",
+    "{\"student\": {\"id\": \"2024001\", \"name\": \"박소영\", \"birthday\": \"2000-01-01\", \"address\": {\"city\": \"부산\", \"district\": \"연제구\"}}}",
+    "{\"user\": {\"username\": \"alice123\", \"password\": \"securePass123\", \"last_login\": \"2024-12-20T14:30:00\"}}",
+    "{\"profile\": {\"first_name\": \"홍길동\", \"last_name\": \"김\", \"email\": \"honggildong@example.com\", \"birth_date\": \"1990-05-15\"}}",
+    "{\"employee\": {\"id\": \"E12345\", \"name\": \"최진수\", \"role\": \"Manager\", \"salary\": 5000000, \"contact\": {\"email\": \"jinsoo@company.com\", \"phone\": \"010-5555-1234\"}}}",
+    "{\"order\": {\"order_id\": \"ORD98765\", \"customer\": {\"name\": \"임재현\", \"address\": \"서울시 종로구\", \"email\": \"jaehyun@customer.com\"}, \"items\": [{\"item_name\": \"Laptop\", \"price\": 1200000}]}}",
+    "{\"patient\": {\"name\": \"이은정\", \"dob\": \"1985-11-20\", \"phone\": \"010-1122-3344\", \"medical_history\": [\"Hypertension\", \"Asthma\"]}}",
+    "{\"account\": {\"user_id\": \"A12345\", \"bank\": \"우리은행\", \"account_number\": \"110-123-456789\", \"balance\": 5000000}}",
+    "{\"customer\": {\"id\": \"C9876\", \"name\": \"홍길동\", \"payment_info\": {\"card\": {\"type\": \"Visa\", \"card_number\": \"1234 5678 9012 3456\", \"expiry\": \"12/26\"}}}}",
+    "{\"transaction\": {\"transaction_id\": \"T555444\", \"sender\": {\"name\": \"김민수\", \"account\": \"KEB하나은행\", \"account_number\": \"220-567-891234\"}, \"receiver\": {\"name\": \"이영희\", \"account\": \"신한은행\", \"account_number\": \"300-678-123456\"}, \"amount\": 1500000}}",
+    "{\"billing_info\": {\"customer\": {\"name\": \"박지민\", \"bank_details\": {\"bank_name\": \"KB국민은행\", \"account\": \"123-456-789012\", \"balance\": 100000}, \"card_details\": {\"card_type\": \"MasterCard\", \"card_number\": \"5555 6666 7777 8888\", \"valid_till\": \"09/25\"}}}}"
+  ],
+  "piExcluded": [
+    "{\"status\": \"active\", \"version\": \"v2.1\"}",
+    "{\"code\": \"200\", \"message\": \"success\"}",
+    "{\"data\": {\"key1\": \"value1\", \"key2\": \"value2\"}}",
+    "{\"info\": \"public data available\"}",
+    "{\"metadata\": {\"timestamp\": \"2024-12-23T10:00:00\", \"source\": \"sensor1\", \"status\": \"active\"}, \"details\": {\"measurement\": {\"temperature\": 22.5, \"humidity\": 60}}}",
+    "{\"system_info\": {\"server\": \"server1\", \"uptime\": \"48 hours\", \"disk_space\": \"200GB\"}, \"logs\": [{\"log_id\": \"log001\", \"level\": \"info\", \"message\": \"System running smoothly\"}, {\"log_id\": \"log002\", \"level\": \"warning\", \"message\": \"Disk space running low\"}]}",
+    "{\"analytics\": {\"metrics\": {\"page_views\": 1200, \"unique_visitors\": 850}, \"platform\": \"web\", \"region\": \"asia\"}, \"tracking\": {\"session_id\": \"abcd1234\", \"duration\": 15.2}}",
+    "{\"config\": {\"app_version\": \"v1.4.3\", \"features_enabled\": [\"dark_mode\", \"notifications\"], \"settings\": {\"theme\": \"light\", \"language\": \"en\"}}, \"dependencies\": {\"libraries\": [{\"name\": \"libA\", \"version\": \"1.2.0\"}, {\"name\": \"libB\", \"version\": \"2.3.1\"}]}}",
+    "{\"network\": {\"devices\": [{\"device_id\": \"device1\", \"status\": \"online\", \"ip\": \"192.168.1.100\"}, {\"device_id\": \"device2\", \"status\": \"offline\", \"ip\": \"192.168.1.101\"}], \"bandwidth\": {\"download\": 100, \"upload\": 20}}}"
+  ]
+}
